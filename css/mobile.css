@@ -23,12 +23,17 @@
 }
 
 .logo-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 24px 0;
 }
 
-.contacts {
+.address-contacts {
     display: none;
+}
+
+.menu-contacts {
+    display: block;
+    margin-left: 0;
+    padding: 0;
 }
 
 .header-container {
@@ -109,14 +114,8 @@
     font-size: 36px;
 }
 
-.page-viewport-link::after {
+.link-active:after {
     display: none;
-}
-
-.mail-tel {
-    display: block;
-    margin-left: 0;
-    padding: 0;
 }
 
 .menu-item-tel {
