@@ -1,3 +1,17 @@
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --primary-titletxt-color: #2E2F42;
+    --secondary-titletxt-color: #FFFFFF;
+    --primary-txt-color: #434455;
+    --secondary-txt-color: #F4F4FD;
+    --accent-hover-color: #404BBF;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #f4f4fd;
+    --iris-color: #4d5ae5;
+    --icon-color: #8e8f99;
+}
+
 .container {
     max-width: 428px;
 }
@@ -29,7 +43,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: var(--primary-text-color-theme-dark);
+    background-color: var(--secondary-titletxt-color);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -84,7 +98,7 @@
 }
 
 .mobile-menu-btn-icon {
-    fill: var(--title-color);
+    fill: var(--primary-titletxt-color);
 }
 
 .mobile-menu-container .menu {
@@ -111,8 +125,7 @@
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--iris-color);
-    color: var(--iris-color);
+    color: var(--iris-color);   
 }
 
 .menu-item-email {
@@ -122,7 +135,7 @@
     line-height: 1.2;
     font-style: medium;
     letter-spacing: 0.02em;
-    color: var(--description-color);
+    color: var(--primary-txt-color);
 }
 
 .container-bottom {
