@@ -1,39 +1,19 @@
-:root {
-    --main-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Raleway", sans-serif;
-    --primary-titletxt-color: #2E2F42;
-    --secondary-titletxt-color: #FFFFFF;
-    --primary-txt-color: #434455;
-    --secondary-txt-color: #F4F4FD;
-    --accent-hover-color: #404BBF;
-    --primary-bg-color: #ffffff;
-    --secondary-bg-color: #f4f4fd;
-    --iris-color: #4d5ae5;
-    --icon-color: #8e8f99;
-}
-
 .container {
     max-width: 428px;
 }
 
 /*=================== header =======================*/
-
 .menu {
     display: none;
 }
 
 .logo-header {
-    padding-top: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.address-contacts {
+.contacts {
     display: none;
-}
-
-.menu-contacts {
-    display: block;
-    margin-left: 0;
-    padding: 0;
 }
 
 .header-container {
@@ -48,7 +28,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: var(--secondary-titletxt-color);
+    background-color: var(--primary-text-color-theme-dark);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -103,7 +83,7 @@
 }
 
 .mobile-menu-btn-icon {
-    fill: var(--primary-titletxt-color);
+    fill: var(--title-color);
 }
 
 .mobile-menu-container .menu {
@@ -114,8 +94,14 @@
     font-size: 36px;
 }
 
-.link-active:after {
+.page-viewport-link::after {
     display: none;
+}
+
+.mail-tel {
+    display: block;
+    margin-left: 0;
+    padding: 0;
 }
 
 .menu-item-tel {
@@ -124,7 +110,8 @@
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--iris-color);   
+    color: var(--iris-color);
+    color: var(--iris-color);
 }
 
 .menu-item-email {
@@ -134,7 +121,7 @@
     line-height: 1.2;
     font-style: medium;
     letter-spacing: 0.02em;
-    color: var(--primary-txt-color);
+    color: var(--description-color);
 }
 
 .container-bottom {
@@ -146,3 +133,135 @@
 .social-list-menu {
     justify-content: space-between;
 }
+
+/*=================== hero =======================*/
+.hero {
+    padding-top: 112px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero/hero-bg-mobile.jpg);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-bg-mobile@2x.jpg);
+    }
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+/*=================== modal =======================*/
+.modal {
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 584px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 406px) {
+    .modal {
+        padding-top: 60px;
+    }
+
+    .contact-form-submit {
+        margin-top: 10px;
+    }
+}
+
+/*=================== about =======================*/
+.list-about {
+    flex-direction: column;
+    gap: 72px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+/*=================== our-team =======================*/
+.team-list {
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+}
+
+/*=================== customers =======================*/
+.customers-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px;
+}
+
+/*==================== footer =========================*/
+.container-footer {
+    flex-direction: column;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form-box {
+    padding-top: 72px;
+}
+
+.subscribe-form {
+    flex-direction: column;
+}
+
+.team-social-list {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link-footer {
+    text-align: center;
+}
+
+.social-footer,
+.subscribe-footer {
+    text-align: center;
+}
+
+.subscribe-form-box {
+    justify-content: center;
+    width: 100%;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form-email {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+/*===================portfolio =======================*/
+.portfolio {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.filter-list {
+    flex-wrap: wrap;
+}
+
+.works {
+    margin-top: 48px;
+    flex-direction: column;
+    gap: 48px;
+}
+

@@ -1,0 +1,132 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .mail-tel {
+        display: block;
+    }
+
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .logo-header {
+        margin-right: 0;
+    }
+
+    .mail-tel {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 12px;
+        line-height: 1.166;
+        letter-spacing: 0.04em;
+    }
+}
+
+/*=================== hero =======================*/
+.hero {
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero/hero-bg-tablet.jpg);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-bg-tablet@2x.jpg);
+    }
+}
+
+/*=================== about =======================*/
+.list-about {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.item-about {
+    width: calc((100% - 24px) / 2);
+}
+
+/*=================== our-team =======================*/
+
+.team-list {
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+/*=================== customers =======================*/
+.customers-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+/*==================== footer =========================*/
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-wrapper,
+.subscribe-form {
+    column-gap: 24px;
+}
+
+.social-footer,
+.subscribe-footer {
+    text-align: left;
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    justify-content: flex-start;
+    max-width: 550px;
+}
+
+.social-list-footer {
+    justify-content: flex-start;
+}
+
+.description-footer {
+    margin-bottom: 0;
+}
+
+.subscribe-btn {
+    margin: 0;
+}
+
+/*===================portfolio =======================*/
+.portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+}
+
+.works-item {
+    width: calc((100% - 24px) / 2);
+}

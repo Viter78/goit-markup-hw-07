@@ -1,0 +1,127 @@
+.container {
+    max-width: 1126px;
+}
+
+/*=================== header =======================*/
+
+.contacts {
+    margin-left: auto;
+    font-style: normal;
+}
+
+/*=================== hero =======================*/
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero/hero-bg-desktop.jpg);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-bg-desktop@2x.jpg);
+    }
+}
+
+.logo-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+
+/*===================== about =======================*/
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-about {
+    gap: 24px;
+}
+
+.item-about {
+    width: calc((100% - 72px) / 4);
+}
+
+.about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    max-width: 264px;
+    background-color: var(--cloud-color);
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/*==================== in-progress =======================*/
+.in-progress {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
+/*==================== our-team =========================*/
+.team-list {
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - (3 * 24px)) / 4);
+}
+
+/*==================== footer =========================*/
+.footer {
+    padding: 100px 0;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-gap: 80px;
+}
+
+.subscribe-form-email {
+    padding-left: 16px;
+}
+
+.footer-wrapper {
+    display: flex;
+    column-gap: 120px;
+}
+
+.subscribe-form {
+    column-gap: 24px;
+}
+
+.subscribe-footer {
+    margin-top: 0;
+}
+
+/*===================portfolio =======================*/
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.filter-list {
+    display: flex;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.works-item {
+    width: calc((100% - 48px) / 3);
+}
