@@ -422,6 +422,7 @@ body {
 
 .social-list-footer {
         gap: 16px;
+        background-color: var(--title-color);
 }
 
 .social-footer-link {
