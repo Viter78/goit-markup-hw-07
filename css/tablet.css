@@ -25,7 +25,7 @@
         line-height: 1.166;
         letter-spacing: 0.04em;
     }
-}
+
 
 /*=================== hero =======================*/
 .hero {
@@ -129,4 +129,5 @@ screen and (min-resolution: 2dppx) {
 
 .works-item {
     width: calc((100% - 24px) / 2);
+}
 }

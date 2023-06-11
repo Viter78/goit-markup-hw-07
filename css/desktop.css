@@ -1,3 +1,4 @@
+@media screen and (min-width: 1158px) {
 .container {
     max-width: 1158px;
 }
@@ -124,4 +125,5 @@ screen and (min-resolution: 2dppx) {
 
 .works-item {
     width: calc((100% - 48px) / 3);
+}
 }
