@@ -119,7 +119,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    font-style: medium;
     letter-spacing: 0.02em;
     color: var(--description-color);
 }
@@ -127,7 +126,6 @@
 .container-bottom {
     justify-content: start;
     margin-top: 0px;
-    gap: space-between;
 }
 
 .social-list-menu {
