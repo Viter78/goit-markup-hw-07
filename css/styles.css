@@ -350,7 +350,7 @@ body {
 .customers-link {
         display: flex;
         height: 88px;
-        width: 168px;
+        width: 190px;
         border: 1px solid var(--icons-color);
         border-radius: 4px;
         justify-content: center;

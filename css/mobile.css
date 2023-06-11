@@ -210,7 +210,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .subscribe-form-box {
-    padding-top: 72px;
+    margin-top: 72px;
 }
 
 .subscribe-form {
@@ -220,6 +220,7 @@ screen and (min-resolution: 2dppx) {
 .team-social-list {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 72px;
 }
 
 .link-footer {
