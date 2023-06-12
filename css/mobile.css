@@ -204,6 +204,10 @@ screen and (min-resolution: 2dppx) {
     column-gap: 16px;
 }
 
+.customers-link {
+    width: 190px;
+}
+
 /*==================== footer =========================*/
 .container-footer {
     flex-direction: column;
